@@ -1,0 +1,12 @@
+Source: ros-melodic-interactive-marker-proxy
+Section: misc
+Priority: extra
+Maintainer: Russell Toris <rctoris@wpi.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-interactive-markers, ros-melodic-message-generation, ros-melodic-roscpp, ros-melodic-visualization-msgs
+Homepage: http://wiki.ros.org/interactive_marker_proxy
+Standards-Version: 3.9.2
+
+Package: ros-melodic-interactive-marker-proxy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-interactive-markers, ros-melodic-message-runtime, ros-melodic-roscpp, ros-melodic-visualization-msgs
+Description: A Proxy Server for Interactive Markers
